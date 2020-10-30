@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'rubocop-mge'
   spec.version       = RuboCop::Mge::VERSION
   spec.authors       = ['Mein MeinGrundeinkommen e.V.']
-  spec.email         = ['paul@mein-grundeinkommen.de']
+  spec.email         = ['development@mein-grundeinkommen.de']
 
   spec.summary       = 'Custom rubocops from and for mge applications'
   spec.description   = 'Custom rubocops from and for mge applications'
