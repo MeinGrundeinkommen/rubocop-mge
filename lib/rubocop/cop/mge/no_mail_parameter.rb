@@ -1,12 +1,14 @@
 # frozen_string_literal: true
 
-require 'rubocop/mge/version'
+# require 'rubocop/mge/version'
 
 module RuboCop
   module Cop
-    module Security
+    module Mge
+      # Good:
+      # Bad:
       class NoMailParameter < RuboCop::Cop::Cop
-        MSG = 'Do not send email addresses via query paramters'
+        MSG = 'Do not send email addresses via query parameters'
 
         def_node_search :using_mail_parameter?, <<~PATTERN
           (send (send nil? :params) :[] (sym :email))
