@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe RuboCop::Cop::Security::NoMailParameter do
+RSpec.describe RuboCop::Cop::Mge::NoMailParameter do
   include CopHelper
 
   let(:cop) { described_class.new }

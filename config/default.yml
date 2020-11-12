@@ -1,1 +1,4 @@
-# Write it!
+Mge/NoMailParameter:
+  Description: 'Do not send email addresses via query parameters'
+  Enabled: true
+  VersionAdded: '0.1.0'
